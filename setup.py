@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='fastapi-wrapper',
+    name='simple-fastapi-backend-server',
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'fastapi-wrapper = fastapi_wrapper.main:start'
+            'simple-fastapi-backend-server = simple_fastapi_backend_server.main:start'
         ]
     },
     author='Ataur Rahman',
