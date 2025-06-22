@@ -1,11 +1,11 @@
 import subprocess
 
-def test_cli_runs():
+def test_cli_help():
     result = subprocess.run(
-        ["simple-fastapi-backend-server"],
+        ["simple-fastapi-backend-server", "--help"],
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
         timeout=5
     )
-    # We only check that it starts up correctly
-    assert result.returncode == 0 or result.returncode is None
+    output = result.stdout.decode()
+    assert "Usage:" in output

@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: simple-fastapi-backend-server
-Version: 0.1.5
+Version: 0.1.6
 Summary: A simple FastAPI wrapper package for quick testing of auth endpoints.
 Author: Ataur Rahman
 Requires-Python: >=3.9
