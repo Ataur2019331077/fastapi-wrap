@@ -19,5 +19,6 @@ def login(user: dict):
 def start():
     if "--help" in sys.argv:
         print("Usage: simple-fastapi-backend-server")
-        sys.exit(0)
+        sys.exit(0)  # 🔥 This line is critical
+
     uvicorn.run("simple_fastapi_backend_server.main:app", host="0.0.0.0", port=8000)

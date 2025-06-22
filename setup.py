@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="simple-fastapi-backend-server",
-    version="0.1.5",  # incremented version
+    version="0.1.6",  # incremented version
     packages=find_packages(),
     install_requires=["fastapi", "uvicorn"],
     entry_points={
