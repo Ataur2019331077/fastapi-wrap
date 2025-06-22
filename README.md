@@ -1,5 +1,5 @@
 # simple-fastapi-backend-server
-[![PyPI version](https://img.shields.io/pypi/v/simple-fastapi-backend-server.svg)](https://pypi.org/project/simple-fastapi-backend-server/)
+[![PyPI version](https://img.shields.io/pypi/v/simple-fastapi-backend-server.svg)](https://pypi.org/project/simple-fastapi-backend-server/0.1.1/)
 
 A minimal, prebuilt FastAPI backend server for quick authentication prototyping.
 
