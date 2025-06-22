@@ -16,4 +16,4 @@ def login_user(user: dict):
     return {"message": "User logged in successfully", "user": user}
 
 def start():
-    uvicorn.run("fastapi_wrapper.main:app", host="0.0.0.0", port=8000, reload=False)
+    uvicorn.run("simple_fastapi_backend_server.main:app", host="0.0.0.0", port=8000)
